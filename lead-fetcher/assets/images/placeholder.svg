@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+
+<rect width="900" height="500" fill="#0d0e16"></rect>
+
+<circle cx="450" cy="250" r="95" fill="#18152e" stroke="#7567ff" stroke-width="2"></circle>
+
+<text x="450" y="265" text-anchor="middle" fill="#7567ff" font-family="Arial" font-size="36">
+    LEAD
+</text>
+
+</svg>
