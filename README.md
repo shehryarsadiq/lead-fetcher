@@ -1,26 +1,24 @@
 # LeadFetcher
 
-A web-based lead generation and management system designed to collect, organize, and manage business leads efficiently.
+A web-based lead generation and management tool designed to help users discover, search, and manage business leads efficiently.
 
 ## 📌 About The Project
 
-**LeadFetcher** is a web-based lead management application built to help users collect and manage business leads in an organized way.
+**LeadFetcher** is a web-based lead generation platform built to provide an organized and user-friendly way to search for business leads.
 
-The system provides a clean interface for managing lead information and maintaining lead records through a centralized dashboard.
+The project focuses on creating a clean interface, structured lead information, and an efficient search experience.
 
 ## ✨ Features
 
-* 🔐 Admin authentication
-* 📊 Dashboard with lead overview
-* 👥 Lead management
-* ➕ Add new leads
-* ✏️ Edit existing leads
-* 🗑️ Delete leads
-* 🔍 Search and manage lead records
-* 📋 Organized lead information
-* 📱 Responsive user interface
-* 🗄️ MySQL database integration
-* ⚡ Dynamic interactions using JavaScript/AJAX
+* 🔎 Business lead search
+* 📋 Lead information display
+* 🏠 Modern home page
+* 📱 Responsive design
+* ⚡ Fast and interactive search experience
+* 📄 Dedicated features section
+* 👨‍💻 About section
+* 📩 Contact section
+* 🎨 Clean and user-friendly interface
 
 ## 🛠️ Technologies Used
 
@@ -33,27 +31,30 @@ The system provides a clean interface for managing lead information and maintain
 * **JavaScript**
 * **AJAX / Fetch API**
 * **Font Awesome**
-* **Git & GitHub**
 
 ## 📸 Screenshots
 
-### Dashboard
+### 🏠 Home Page
 
-![Dashboard](screenshots/dashboard.png)
+![Home Page](screenshots/home.png)
 
-### Lead Management
+### ✨ Features
 
-![Lead Management](screenshots/leads.png)
+![Features](screenshots/features.png)
 
-### Add Lead
+### 👨‍💻 About
 
-![Add Lead](screenshots/add-lead.png)
+![About](screenshots/about.png)
 
-### Login
+### 📩 Contact
 
-![Login](screenshots/login.png)
+![Contact](screenshots/contact.png)
 
-> Replace the screenshot filenames above with the exact filenames inside your `screenshots` folder.
+### 🔎 Search
+
+![Search](screenshots/search.png)
+
+> Make sure the filenames above exactly match the files inside the `screenshots` folder.
 
 ## ⚙️ Installation
 
@@ -65,7 +66,7 @@ git clone https://github.com/YOUR-USERNAME/lead-fetcher.git
 
 ### 2. Move the Project
 
-Move the project folder into your local server directory.
+Move the project into your local server directory.
 
 For WAMP:
 
@@ -81,9 +82,7 @@ C:\xampp\htdocs\
 
 ### 3. Create the Database
 
-Open **phpMyAdmin** and create a new MySQL database.
-
-Example:
+Open **phpMyAdmin** and create a MySQL database.
 
 ```text
 lead_fetcher
@@ -91,32 +90,17 @@ lead_fetcher
 
 ### 4. Import Database
 
-Import the provided:
+Import the provided `database.sql` file into the database.
 
-```text
-database.sql
-```
+### 5. Configure Database
 
-file into your newly created database.
-
-### 5. Configure Database Connection
-
-Open your database configuration file and update the connection details according to your local environment.
-
-Example:
-
-```php
-$host = "localhost";
-$user = "root";
-$password = "";
-$database = "lead_fetcher";
-```
+Update your database connection settings according to your local environment.
 
 ### 6. Run the Project
 
-Start **Apache** and **MySQL** from WAMP/XAMPP.
+Start Apache and MySQL from WAMP/XAMPP.
 
-Then open:
+Open:
 
 ```text
 http://localhost/lead-fetcher/
@@ -132,35 +116,38 @@ lead-fetcher/
 ├── config/
 ├── includes/
 ├── screenshots/
+│   ├── home.png
+│   ├── features.png
+│   ├── about.png
+│   ├── contact.png
+│   └── search.png
+│
 ├── database.sql
 ├── index.php
 └── ...
 ```
 
-## 🎯 Purpose
+## 🎯 Project Purpose
 
-This project was developed as a practical full-stack web development project to demonstrate skills in:
+LeadFetcher was developed as a practical web development project to demonstrate skills in:
 
-* Backend development
-* Database management
-* CRUD operations
-* Authentication
-* Responsive frontend development
-* PHP & MySQL integration
-* JavaScript/AJAX development
+* PHP development
+* MySQL database integration
+* Search functionality
+* Frontend development
+* Responsive web design
+* JavaScript/AJAX
+* Database-driven applications
 
 ## 🚀 Future Improvements
 
-Some planned improvements include:
-
 * Advanced lead filtering
-* Lead status management
-* Lead assignment
-* Follow-up reminders
-* Export leads to Excel/PDF
-* Email integration
+* More detailed lead information
+* Lead categories
+* Export functionality
 * Analytics and reporting
 * API integrations
+* Improved search capabilities
 
 ## 👨‍💻 Developer
 
